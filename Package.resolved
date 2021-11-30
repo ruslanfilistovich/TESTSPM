@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BanubaLicenseServicingSDK",
+        "repositoryURL": "https://github.com/Banuba/BanubaLicenseServicingSDK",
+        "state": {
+          "branch": null,
+          "revision": "f41a50bbc689241ef29906bf5c25175e4c5ab7c9",
+          "version": "1.20.0"
+        }
+      },
+      {
+        "package": "BanubaSDKServicing",
+        "repositoryURL": "https://github.com/Banuba/BanubaSDKServicing-iOS",
+        "state": {
+          "branch": null,
+          "revision": "3e4696d45d43c515c0d42710b76740c5552ab7f9",
+          "version": "1.20.0"
+        }
+      },
+      {
+        "package": "BanubaUtilities",
+        "repositoryURL": "https://github.com/Banuba/BanubaUtilities-iOS",
+        "state": {
+          "branch": null,
+          "revision": "3808899e111ae12d8d20b7011550d062fd523c02",
+          "version": "1.20.0"
+        }
+      },
+      {
+        "package": "BanubaVideoEditorSDK",
+        "repositoryURL": "https://github.com/Banuba/BanubaVideoEditorSDK-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "a1741a318232806eed927dd1eabcd5bfceba94dd",
+          "version": "1.20.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
