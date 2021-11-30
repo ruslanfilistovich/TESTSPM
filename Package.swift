@@ -13,6 +13,13 @@ let package = Package(
         .library(
             name: "TESTSPM",
             targets: ["TESTSPM"]),
+        
+          .library(
+              name: "NEWTEST",
+              targets: ["NEWTEST"]),
+        .library(
+            name: "OLDTEST",
+            targets: ["OLDTEST"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -31,9 +38,17 @@ let package = Package(
               .product(
                 name: "BanubaVideoEditorSDK",
                 package: "BanubaVideoEditorSDK-iOS"),
+            ]),
+        .target(
+            name: "NEWTEST",
+            dependencies: [
               .product(
                 name: "BanubaSDKServicing",
                 package: "BanubaSDKServicing-iOS"),
+            ]),
+        .target(
+            name: "OLDTEST",
+            dependencies: [
             ]),
         .testTarget(
             name: "TESTSPMTests",
